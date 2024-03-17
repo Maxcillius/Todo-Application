@@ -1,6 +1,6 @@
-import { createTodo, updateTodo } from "./types";
-import { todo } from "./db";
-
+const { createTodo } = require("./types");
+const { updateTodo } = require("./types");
+const { todo } = require("./db");
 const express = require("express");
 
 const app = express();
