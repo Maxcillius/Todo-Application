@@ -1,11 +1,15 @@
 import { useState } from "react";
+import "./createToDo.css";
 
 export function CreateTodo() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
   return (
-    <div>
+    <div className="createTodo">
+      <div className="heading">
+        <h1>Add a Todo</h1>
+      </div>
       <input
         type="text"
         onChange={function (e) {

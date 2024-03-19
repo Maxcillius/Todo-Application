@@ -1,0 +1,19 @@
+.Todos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 50px;
+  border: 2px solid white;
+}
